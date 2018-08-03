@@ -1,10 +1,9 @@
 {
   "name": "mattools",
   "main": "./lib/mattools",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Project administrator tool",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "mattools:toggle"
   },
@@ -20,6 +19,5 @@
       }
     }
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
