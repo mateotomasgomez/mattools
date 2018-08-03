@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle mattools",
+        "command": "mattools:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "mattools",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "mattools:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

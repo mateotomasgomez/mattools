@@ -1,0 +1,25 @@
+{
+  "name": "mattools",
+  "main": "./lib/mattools",
+  "version": "0.0.0",
+  "description": "Project administrator tool",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "mattools:toggle"
+  },
+  "repository": "https://github.com/mateotomasgomez/mattools",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "dependencies": {
+  }
+}
