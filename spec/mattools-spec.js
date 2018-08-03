@@ -14,7 +14,7 @@ describe('Mattools', () => {
     workspaceElement = atom.views.getView(atom.workspace);
     activationPromise = atom.packages.activatePackage('mattools');
   });
-
+ 
   describe('when the mattools:toggle event is triggered', () => {
     it('hides and shows the modal panel', () => {
       // Before the activation event the view is not on the DOM, and no panel

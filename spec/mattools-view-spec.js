@@ -7,4 +7,3 @@ describe('MattoolsView', () => {
     expect('life').toBe('easy');
   });
 });
- 
